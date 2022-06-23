@@ -1,0 +1,164 @@
+
+.main{
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.main .loai-laptop{
+    width: 100%;
+    margin-top: 1%;
+    height: 200%;
+    
+    /* border:solid 1px blue; 
+     */
+    
+    
+}
+.loai-laptop{
+  
+    height: 100em;
+    
+}
+.loai-laptop .box{
+
+     background-color: #ffffff;
+    height: 70%;
+    width: 80%;
+    margin:auto;
+    border-radius: 0.2em;
+    border:none;
+    /* border:solid 1px red;  */
+    
+    
+} 
+
+.loai-laptop .banner{
+    
+    margin: 5% 0 5% 0;
+    border:solid 2px #dad8d8 ;
+    border-left: none;
+    border-right: none;
+    padding: 2% 0 2% 0;
+    font-family: cursive;
+}
+
+   
+
+
+
+.main .sanpham{
+    width: 100%;
+    background-color: #ffffff;
+    margin: auto;
+    height: 110%;
+
+    /* border: solid 1px blue; */
+    
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+    */
+
+    display: grid;
+    /* grid-auto-rows: minmax(min-content,max-content); */
+    grid-template-columns: repeat(5,minmax(0,1fr));
+   
+   
+}
+   
+/* }.main .fold{
+    width: 30%;
+    background-color: brown;
+}*/
+/* .hinhanh-nhucau{
+    width: 95%;
+    height: 80%;
+    background-color: transparent;
+    margin: auto;
+} */
+
+.hinhanh{
+    
+    width: 80%;
+    height: 30%;
+    /* border: solid 1px black; */
+    margin: auto;
+  
+}
+
+.hinhanh:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+.hinhanh img{
+    margin: auto;
+    width: 100%;
+}
+
+
+
+.sanpham .fold{
+    /* background-color: red; */
+    text-align: center;
+    border:solid 1px #dad8d8 ;
+    padding-top: 3%;
+
+    height: 28em;
+    /* margin-right: 1%;
+    margin-top: 5%; */
+    margin:0 2% 0 2%;
+    /* box-shadow: 2px 8px 12px rgb(0 0 0 / 6%); */
+    padding-top: -10%;
+    /* border:solid 1px black;  */
+    
+    /* border: solid 1px red; */
+    
+    
+
+    
+}
+
+
+
+.ten{
+    margin-top: 10%;
+    text-align: start;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ten a:hover{
+    color:#10aaf1
+
+}
+.gia a{
+    text-align: start;
+    margin-left: 2%;
+    font-size: 0.8em;
+    
+    margin-top: 2%;
+    color:red
+}
+.gia a:hover{
+    color:black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

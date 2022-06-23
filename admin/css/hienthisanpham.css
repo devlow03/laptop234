@@ -1,0 +1,44 @@
+.tieude-admin h1{
+    text-align: center;
+    color:#ffffff
+}
+.themsp a {
+    
+    text-decoration: none;
+   
+    color: #ffffff;
+    
+    
+}
+
+.themsp button{
+    margin-bottom: 1%;
+    font-size: 1em;
+    width: 10%;
+    margin-left: 80%;
+    height: 2em;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    
+
+}
+.hien-sanpham{
+    width: 100%;
+}
+.hien-sanpham table{
+    width: 80%;
+    /* background-color: #139487; */
+    background-color: #36AE7C;
+    color: black;
+    font-size: 1em;
+    border-radius: 4px;
+   
+}
+
+.hien-sanpham table a{
+    text-decoration: none;
+    color: blue;
+   
+    
+}

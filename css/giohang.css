@@ -1,0 +1,164 @@
+
+
+.main .main-gh{
+    width: 100%;
+    height: 100%;
+    border: solid 1px #F8FAFC;
+    background-color: #F8FAFC;
+    padding-top: 3%;
+    
+    
+    
+}
+.sanpham-gh{
+    width: 40%;
+    margin:  auto;
+    border:solid 1px #dad8d8 ;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    
+    
+}
+.fold-giohang{
+    display: grid;
+    /* grid-auto-rows: minmax(min-content,max-content); */
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    margin: 5% auto;
+    border-bottom:solid 1px #dad8d8 ;
+    
+}
+
+.hinhanh-gh img{
+    width: 50%;
+    height: 80%;
+    margin-left: 5%;
+}
+
+
+
+.soluong input{
+  
+   width: 20%;
+   
+   margin-left: 5%;
+   margin-bottom: 10%;
+}
+.gia-sp{
+    margin-left: auto;
+    margin-top: 2%;
+    color: red;
+    margin-right: 2%;
+}
+
+.ten-gh h2{
+ text-align: center;
+ border-bottom: solid 1px #dad8d8;
+
+}
+.xoa-gh{
+    height: 70%;
+    margin-top: -10%;
+}
+.xoa-gh button{
+    border: solid 1px #dad8d8;
+    width: 40%;
+    height: 150%;
+    margin-left: 150%;
+    cursor: pointer;
+}
+
+
+
+.title h3{
+    text-align: center;
+    border-bottom: solid 1px #dad8d8; 
+    padding: 2%;
+   
+}
+
+.thongtin-kh h3{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.frm-khachhang{
+    width: 100%;
+    height: 50%;
+    
+}
+
+
+.thongtin-kh{
+    
+    width: 100%;
+    border-bottom:solid 1px #dad8d8 ;
+
+}
+
+table{
+    width: 100%;
+   height: 100%;
+   /* border: solid 1px red; */
+   
+   
+}
+
+table input[type=text]{
+    width: 90%;
+    height: 30%;
+    padding: 2%;
+    margin-top: 10%;
+    margin-left: 2%;
+    border-radius: 4px;
+}
+
+table input[type=radio]{
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 5%;
+}
+
+
+table input[type=date]{
+    margin-left: 1.5%;
+    width: 90%;
+    margin-top: 10%;
+    padding: 2%;
+    /* height: 40%;
+    padding: 2%;
+    margin-top: 14%; */
+    border-radius: 4px;
+    border:solid 1px #dad8d8 ;
+}
+
+p{
+    margin:5% 0 0 2%;
+    color: red;
+}
+.btn-dathang{
+    /* border: solid 1px red; */
+    width: 160%;
+    padding: 2%;
+    
+}
+.btn-dathang button[type=submit]{
+        width: 40%;
+        margin-left: 40%;
+        padding: 2%;
+        background-color: red;
+        border-radius: 4px;
+        color:#ffffff;
+        font-weight: 500;
+        font-size: 1.2em;
+        cursor: pointer;
+}
+
+.soluong{
+    margin-left: 2%;
+}
+.soluong button{
+    /* border: solid 1px red; */
+    margin-left: 1%;
+    cursor: pointer;
+}
+

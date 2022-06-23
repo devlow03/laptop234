@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+
+body{
+    background-color: #187498;
+    
+}
+.admin .title-admin{
+    background-color: #EB5353 ;
+    text-align: center;
+    height: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.5em;
+}
+.hinhanh{
+   
+    width: 100%;
+    height: 10em;
+}
+
+.admin-img-1 img{
+    width: 100%;
+    height: 20em;
+    
+}
+
+
+.ten{
+    font-size: 3em;
+    margin-top: -1.8em;
+    font-family: cursive;
+    margin-left: -10em;
+    
+}
+
+.menu{
+    
+    background-color: #F9D923;
+    height: 1.8em;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin-left: 1em;
+    
+    
+    
+    
+}
+
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding-right: 2em;
+    font-size: 1.2em;
+    color:#000000;
+    padding-top: 0.2em;
+    cursor: pointer;
+    /* cursor: default */
+    
+
+}
+/* menu > li{
+    position: relative;
+} */
+.menu  li ul{
+    display: none;
+
+}
+.menu > li{
+    position: relative;
+    width: 100rem;
+}
+.menu ul{
+    position: absolute;
+    
+    
+}
+
+.menu a{
+    text-decoration: none;
+    
+    cursor: default;
+}
+.menu li:hover ul{
+    /* margin-top: 0.5em; */
+    background-color: 	#000000;
+    display: block;
+   border: 2px solid #F7F7F7;
+    border-left: 0;
+    border-right: 0;
+    
+    
+    
+   
+   
+    
+}
+
+.menu li ul a:hover{
+    cursor: default;
+    background-color: green;
+    cursor: pointer;
+    display: block;
+}
+.admin-main{
+    padding-top: 2.3em;
+    /* margin-left: -40%; */
+}
+
+
+
+

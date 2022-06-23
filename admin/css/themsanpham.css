@@ -1,0 +1,94 @@
+.them-sanpham {
+   
+    height: 15em;
+    width: 80%;
+    margin: auto;
+   
+}
+.txt-them h1{
+    padding-top: 0.5em;
+    /* background-color: #A0BCC2; */
+    width: 80%;
+    margin: auto;
+    height: 2em;
+    text-align: center;
+    color:#ffffff;
+    font-weight: bold;
+    
+}
+
+
+
+.them-sanpham table{
+    /* margin-left: 10%;
+    padding-right: 6.9%;
+    padding-left: 10%; */
+    /* box-sizing: border-box; */
+    /* border: solid 1px; */
+    /* width: 50%;
+    height: 1,3em; */
+    margin:auto;
+    width:80%;
+    border:solid 2px #dad8d8 ;
+    /* border: none; */
+    background-color: #36AE7C;
+    border-radius: 10px;
+    padding-top: 2%;
+    
+}
+
+input[type=file]{
+    border: none;
+    margin-left: 35%;
+}
+.them-sanpham label{
+    margin: auto auto 10% 10%;
+
+}
+.them-sanpham input[type=text]{
+    width: 40%;
+    height: 30px;
+    margin-left: 10%;
+    outline: none;
+    border-radius: 0%;
+
+}
+input[type=radio]{
+    margin-left: 40%;
+}
+ /* .them-sanpham label{
+    margin-left: -4em;
+} */
+td#lb-chitiet-sp{
+    margin: auto;
+}
+textarea{
+    width: 200%;
+    height: 6em;
+    margin-left: 10%;
+    outline: none;
+    resize: none;
+    border:solid 1px #dad8d8 ;
+}
+.btn-themsp{
+   
+    width: 80%;
+    margin:2% auto;
+    /* background-color: #A0BCC2; */
+   
+
+}
+.btn-themsp button{
+    margin-left: 40%;
+    background-color: #34BE82;
+    width: 20%;
+    height: 3em;
+   font-size: 1em;
+    
+    margin-bottom: 0.5%;
+    
+}
+
+.them-sanpham select{
+     margin-left: 10%;
+}

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+
+}
+.don-hang{
+   width: 100%;
+   height: 50em;
+   margin-top: 2%;
+    border: solid 1px red;
+    
+}
+.fold-dh{
+    display: grid;
+    /* grid-auto-rows: minmax(min-content,max-content); */
+    grid-template-columns: repeat(5,minmax(0,1fr));
+    margin: 5% 0 0 5%;
+   
+}
+.box-dh{
+   
+    width: 50%;
+    height: 50%;
+    border: solid 1px blue;
+    margin: auto;
+}
+
+.anh-dh{
+    width: 70%;
+    height: 50%;
+    
+}
